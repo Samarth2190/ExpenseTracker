@@ -13,15 +13,6 @@ The objective of this project was to create an interactive and completely respon
 * Back-end : Node.js, MongoDB Atlas 
 * Software Used : Visual Studio, Figma (for UI)
 
-# Some Glimpses of the Project :
-
-![image](https://user-images.githubusercontent.com/90444477/179441638-d8dc945c-35d2-42f8-8bef-98ea96a2a3f6.png)
-
-![image](https://user-images.githubusercontent.com/90444477/179441674-e385e380-c99c-4ede-b710-4e22d8e85855.png)
-
-![image](https://user-images.githubusercontent.com/90444477/179441513-1ba3e4a2-2b61-45cc-b810-c4d3d4c64e74.png)
-
-![image](https://user-images.githubusercontent.com/90444477/179441577-33ce79a9-4c23-4d95-b299-d8a411714527.png)
 
 # Contribute
 
