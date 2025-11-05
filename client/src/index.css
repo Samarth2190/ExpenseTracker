@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "Montserrat", sans-serif !important;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0f0f0f 100%);
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+/* Glass Morphic Primary Button */
+.primary {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 10px 24px;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.primary:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+}
+
+.primary:active {
+  transform: translateY(0);
+}
+
+.profile-button {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.profile-button:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.secondary {
+  background: rgba(45, 212, 33, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 10px 24px;
+  color: #ffffff !important;
+  border: 1px solid rgba(45, 212, 33, 0.3);
+  border-radius: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 32px rgba(45, 212, 33, 0.2);
+}
+
+.secondary:hover {
+  background: rgba(45, 212, 33, 0.3);
+  border-color: rgba(45, 212, 33, 0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(45, 212, 33, 0.3);
+}
+
+.profile-name {
+  padding: 0px 8px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* Ant Design Modal Glass Morphic Styling */
+.ant-modal-content {
+  background: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5) !important;
+}
+
+.ant-modal-header {
+  background: transparent !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 20px 20px 0 0 !important;
+  padding: 24px;
+}
+
+.ant-modal-title {
+  color: #ffffff !important;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.ant-modal-close {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.ant-modal-close:hover {
+  color: #ffffff !important;
+}
+
+.ant-modal-body {
+  padding: 24px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.ant-modal-footer {
+  background: transparent !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 0 0 20px 20px !important;
+  padding: 16px 24px;
+}
+
+/* Ant Design Dropdown Menu */
+.ant-dropdown {
+  background: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4) !important;
+  padding: 8px 0;
+}
+
+.ant-dropdown-menu {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.ant-dropdown-menu-item {
+  color: rgba(255, 255, 255, 0.9) !important;
+  padding: 12px 20px !important;
+  transition: all 0.3s ease;
+}
+
+.ant-dropdown-menu-item:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: #ffffff !important;
+}
+
+.ant-dropdown-menu-item .btn-outline-success {
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 0;
+  width: 100%;
+  text-align: left;
+}
+
+.ant-dropdown-menu-item .btn-outline-success:hover {
+  color: #ffffff;
+  background: transparent;
+}
+
+/* Ant Design Select Dropdown */
+.ant-select-dropdown {
+  background: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4) !important;
+}
+
+.ant-select-item {
+  color: rgba(255, 255, 255, 0.9) !important;
+  background: transparent !important;
+}
+
+.ant-select-item-option-selected {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: #ffffff !important;
+}
+
+.ant-select-item-option:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.ant-select-item-option-active {
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Ant Design Date Picker Dropdown */
+.ant-picker-dropdown {
+  background: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4) !important;
+}
+
+.ant-picker-panel-container {
+  background: transparent !important;
+}
+
+.ant-picker-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.ant-picker-header button {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.ant-picker-content th {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.ant-picker-cell {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.ant-picker-cell:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.ant-picker-cell-selected {
+  background: rgba(255, 255, 255, 0.2) !important;
+  color: #ffffff !important;
+}
+
+.ant-picker-today-btn {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Material UI Dialog Styling */
+.MuiDialog-paper {
+  background: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5) !important;
+}
+
+.MuiDialogTitle-root {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}
+
+.MuiDialogContentText-root {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.MuiButton-textPrimary {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.MuiButton-textPrimary:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Ant Design Message Notifications */
+.ant-message {
+  z-index: 10000;
+}
+
+.ant-message-notice-content {
+  background: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4) !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+  padding: 12px 16px;
+}
+
+.ant-message-success .anticon {
+  color: #52c41a !important;
+}
+
+.ant-message-error .anticon {
+  color: #ff4d4f !important;
+}
+
+/* Ant Design Tooltip */
+.ant-tooltip-inner {
+  background: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.9) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3) !important;
+}
+
+.ant-tooltip-arrow::before {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}

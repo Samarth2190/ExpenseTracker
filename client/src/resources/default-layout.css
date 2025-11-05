@@ -1,0 +1,103 @@
+.layout {
+    margin: 0 100px;
+    padding-top: 20px;
+}
+
+.header {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    padding: 24px 32px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-size: 32px;
+    color: #ffffff;
+    margin: 0 !important;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #ffffff 0%, #a0a0a0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transition: all 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+.username {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+}
+
+.content {
+    height: 85vh;
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    margin-top: 20px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    padding: 30px;
+    overflow-y: scroll;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.content::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.content::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+.ant-spin-dot-item {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+@media screen and (max-width: 700px) {
+    .layout {
+        margin: 0 15px;
+    }
+    
+    .header {
+        padding: 16px 20px;
+    }
+    
+    .logo {
+        font-size: 24px;
+    }
+    
+    .content {
+        padding: 20px;
+    }
+}

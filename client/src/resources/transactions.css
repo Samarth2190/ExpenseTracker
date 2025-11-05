@@ -1,0 +1,191 @@
+.filter {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    padding: 24px 28px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 24px;
+}
+
+.filter h6 {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.transaction-form label {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-weight: 500;
+}
+
+.transaction-form input {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: #ffffff !important;
+    border-radius: 12px !important;
+    padding: 10px 14px !important;
+    transition: all 0.3s ease;
+}
+
+.transaction-form input:hover {
+    border-color: rgba(255, 255, 255, 0.3) !important;
+    background: rgba(255, 255, 255, 0.08) !important;
+}
+
+.transaction-form input:focus {
+    border: 1px solid rgba(255, 255, 255, 0.4) !important;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.1) !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.transaction-form input::placeholder {
+    color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.ant-select-selector {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 12px !important;
+    color: #ffffff !important;
+}
+
+.ant-select-selector:hover {
+    border-color: rgba(255, 255, 255, 0.3) !important;
+    background: rgba(255, 255, 255, 0.08) !important;
+}
+
+.ant-select-focused .ant-select-selector {
+    border-color: rgba(255, 255, 255, 0.4) !important;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.1) !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.ant-select-selection-item {
+    color: #ffffff !important;
+}
+
+.ant-select-arrow {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.view-switch {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.anticon svg {
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.anticon svg:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: scale(1.1);
+}
+
+.active-icon {
+    color: #ffffff !important;
+    background: rgba(255, 255, 255, 0.15) !important;
+}
+
+.inactive-icon {
+    color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.ant-picker-range {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 12px !important;
+    color: #ffffff !important;
+}
+
+.ant-picker-input input {
+    color: #ffffff !important;
+}
+
+.ant-picker-input input::placeholder {
+    color: rgba(255, 255, 255, 0.4) !important;
+}
+
+@media screen and (max-width: 600px) {
+    .filter {
+        overflow-x: scroll;
+    }
+}
+
+/* Table Styling */
+.ant-table {
+    background: rgba(255, 255, 255, 0.03) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.ant-table-thead > tr > th {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-weight: 600;
+}
+
+.ant-table-tbody > tr > td {
+    background: rgba(255, 255, 255, 0.02) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.ant-table-tbody > tr:hover > td {
+    background: rgba(255, 255, 255, 0.08) !important;
+}
+
+.ant-pagination-item {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.ant-pagination-item a {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.ant-pagination-item-active {
+    background: rgba(255, 255, 255, 0.15) !important;
+    border-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.ant-pagination-item-active a {
+    color: #ffffff !important;
+}
+
+.empty-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-top: 150px;
+    font-size: 16px;
+}
+
+.category-analysis {
+    padding: 20px;
+}
+
+.category-analysis-header {
+    text-align: center;
+    margin-bottom: 25px;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 600;
+    font-size: 20px;
+}
